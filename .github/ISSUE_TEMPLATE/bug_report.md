@@ -1,63 +1,42 @@
 ---
 name: Bug report
-about: Report a bug encountered while using docker-compose
-title: ''
-labels: kind/bug
-assignees: ''
-
+about: Create a report to help us improve
+title:
+labels:
+assignees:
 ---
 
-<!--
-Welcome to the docker-compose issue tracker! Before creating an issue, please heed the following:
+<!--NOTE: -->
+<!--- General questions should go to the discord chat instead of the issue tracker.-->
 
-1. This tracker should only be used to report bugs and request features / enhancements to docker-compose
-    - For questions and general support, use https://forums.docker.com
-    - For documentation issues, use https://github.com/docker/docker.github.io
-    - For issues with the `docker stack` commands and the version 3 of the Compose file, use
-      https://github.com/docker/cli
-2. Use the search function before creating a new issue. Duplicates will be closed and directed to
-   the original discussion.
-3. When making a bug report, make sure you provide all required information. The easier it is for
-   maintainers to reproduce, the faster it'll be fixed.
--->
+**Describe the bug**
 
-## Description of the issue
+<!--A clear and concise description of what the bug is.-->
 
-## Context information (for bug reports)
+**To Reproduce**
 
-**Output of `docker-compose version`**
-```
-(paste here)
-```
+<!--Steps to reproduce the behavior:
+1. Install version X
+2. Set this configuration option
+3. Do this action
+4. See error-->
 
-**Output of `docker version`**
-```
-(paste here)
-```
+**Expected behavior**
 
-**Output of `docker-compose config`**
-(Make sure to add the relevant `-f` and other flags)
-```
-(paste here)
-```
+<!--A clear and concise description of what you expected to happen.-->
 
+**Screenshots**
 
-## Steps to reproduce the issue
+<!--If applicable, add screenshots to help explain your problem.-->
 
-1.
-2.
-3.
+**DAppNode version:**
 
-### Observed result
+<!--Print the DAppNode versions and info found in http://my.dappnode/#/support/report -->
 
-### Expected result
+- Package version: <!-- v0.1.14, upstream: prysm-1.0.0-beta -->
+- OS: <!-- Ubuntu, Debian, DAppNode Mini, DAppNode Advance -->
+- Browser <!-- If applicable: Brave, Firefox, Chrome, Safari -->
 
-### Stacktrace / full error message
+**Additional context**
 
-```
-(paste here)
-```
-
-## Additional information
-
-OS version / distribution, `docker-compose` install method, etc.
+<!--Add any other context about the problem here.-->
